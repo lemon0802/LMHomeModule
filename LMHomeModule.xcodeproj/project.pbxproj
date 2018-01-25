@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7597EA409BA5C02455E75445 /* libPods-LMHomeModule.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFB7D900CBBF5491F39ED687 /* libPods-LMHomeModule.a */; };
+		F77134C22019AD3700987952 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F77134C12019AD3700987952 /* AppDelegate.m */; };
+		F77134C52019AD3700987952 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F77134C42019AD3700987952 /* ViewController.m */; };
+		F77134C82019AD3700987952 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F77134C62019AD3700987952 /* Main.storyboard */; };
+		F77134CA2019AD3700987952 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F77134C92019AD3700987952 /* Assets.xcassets */; };
+		F77134CD2019AD3700987952 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F77134CB2019AD3700987952 /* LaunchScreen.storyboard */; };
+		F77134D02019AD3700987952 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F77134CF2019AD3700987952 /* main.m */; };
+		F77134DB2019B1C600987952 /* LMHomeModule.m in Sources */ = {isa = PBXBuildFile; fileRef = F77134DA2019B1C600987952 /* LMHomeModule.m */; };
+		F77134DE2019BAA800987952 /* LMHomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F77134DD2019BAA800987952 /* LMHomeVC.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A42922071996BD2D058994D5 /* Pods-LMHomeModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LMHomeModule.release.xcconfig"; path = "Pods/Target Support Files/Pods-LMHomeModule/Pods-LMHomeModule.release.xcconfig"; sourceTree = "<group>"; };
+		AF56E7C9B66AB339CF843B8C /* Pods-LMHomeModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LMHomeModule.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LMHomeModule/Pods-LMHomeModule.debug.xcconfig"; sourceTree = "<group>"; };
+		AFB7D900CBBF5491F39ED687 /* libPods-LMHomeModule.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LMHomeModule.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F77134BD2019AD3700987952 /* LMHomeModule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LMHomeModule.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F77134C02019AD3700987952 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F77134C12019AD3700987952 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F77134C32019AD3700987952 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F77134C42019AD3700987952 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F77134C72019AD3700987952 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F77134C92019AD3700987952 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F77134CC2019AD3700987952 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F77134CE2019AD3700987952 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F77134CF2019AD3700987952 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F77134D92019B1C600987952 /* LMHomeModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMHomeModule.h; sourceTree = "<group>"; };
+		F77134DA2019B1C600987952 /* LMHomeModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMHomeModule.m; sourceTree = "<group>"; };
+		F77134DC2019BAA800987952 /* LMHomeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMHomeVC.h; sourceTree = "<group>"; };
+		F77134DD2019BAA800987952 /* LMHomeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMHomeVC.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F77134BA2019AD3700987952 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7597EA409BA5C02455E75445 /* libPods-LMHomeModule.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		104B995B8A1A9DEFCF975215 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AF56E7C9B66AB339CF843B8C /* Pods-LMHomeModule.debug.xcconfig */,
+				A42922071996BD2D058994D5 /* Pods-LMHomeModule.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CCFE31935B391E0823F1B7B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AFB7D900CBBF5491F39ED687 /* libPods-LMHomeModule.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F77134B42019AD3700987952 = {
+			isa = PBXGroup;
+			children = (
+				F77134BF2019AD3700987952 /* LMHomeModule */,
+				F77134BE2019AD3700987952 /* Products */,
+				104B995B8A1A9DEFCF975215 /* Pods */,
+				CCFE31935B391E0823F1B7B3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F77134BE2019AD3700987952 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F77134BD2019AD3700987952 /* LMHomeModule.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F77134BF2019AD3700987952 /* LMHomeModule */ = {
+			isa = PBXGroup;
+			children = (
+				F77134D62019AF4300987952 /* LMHomeModule */,
+				F77134C02019AD3700987952 /* AppDelegate.h */,
+				F77134C12019AD3700987952 /* AppDelegate.m */,
+				F77134C32019AD3700987952 /* ViewController.h */,
+				F77134C42019AD3700987952 /* ViewController.m */,
+				F77134C62019AD3700987952 /* Main.storyboard */,
+				F77134C92019AD3700987952 /* Assets.xcassets */,
+				F77134CB2019AD3700987952 /* LaunchScreen.storyboard */,
+				F77134CE2019AD3700987952 /* Info.plist */,
+				F77134CF2019AD3700987952 /* main.m */,
+			);
+			path = LMHomeModule;
+			sourceTree = "<group>";
+		};
+		F77134D62019AF4300987952 /* LMHomeModule */ = {
+			isa = PBXGroup;
+			children = (
+				F77134D82019B19600987952 /* Module */,
+				F77134D72019B19600987952 /* ViewController */,
+			);
+			path = LMHomeModule;
+			sourceTree = "<group>";
+		};
+		F77134D72019B19600987952 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F77134DC2019BAA800987952 /* LMHomeVC.h */,
+				F77134DD2019BAA800987952 /* LMHomeVC.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		F77134D82019B19600987952 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				F77134D92019B1C600987952 /* LMHomeModule.h */,
+				F77134DA2019B1C600987952 /* LMHomeModule.m */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F77134BC2019AD3700987952 /* LMHomeModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F77134D32019AD3700987952 /* Build configuration list for PBXNativeTarget "LMHomeModule" */;
+			buildPhases = (
+				09E18ADF709A05B862B2FA42 /* [CP] Check Pods Manifest.lock */,
+				F77134B92019AD3700987952 /* Sources */,
+				F77134BA2019AD3700987952 /* Frameworks */,
+				F77134BB2019AD3700987952 /* Resources */,
+				558D5D6E97B76DB93FC7959B /* [CP] Embed Pods Frameworks */,
+				1862E930AF462453CA066618 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LMHomeModule;
+			productName = LMHomeModule;
+			productReference = F77134BD2019AD3700987952 /* LMHomeModule.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F77134B52019AD3700987952 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Lemon Fan";
+				TargetAttributes = {
+					F77134BC2019AD3700987952 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F77134B82019AD3700987952 /* Build configuration list for PBXProject "LMHomeModule" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F77134B42019AD3700987952;
+			productRefGroup = F77134BE2019AD3700987952 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F77134BC2019AD3700987952 /* LMHomeModule */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F77134BB2019AD3700987952 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F77134CD2019AD3700987952 /* LaunchScreen.storyboard in Resources */,
+				F77134CA2019AD3700987952 /* Assets.xcassets in Resources */,
+				F77134C82019AD3700987952 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		09E18ADF709A05B862B2FA42 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LMHomeModule-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1862E930AF462453CA066618 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LMHomeModule/Pods-LMHomeModule-resources.sh",
+				"${PODS_ROOT}/BeeHive/BeeHive/BeeHive.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LMHomeModule/Pods-LMHomeModule-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		558D5D6E97B76DB93FC7959B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LMHomeModule/Pods-LMHomeModule-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F77134B92019AD3700987952 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F77134C52019AD3700987952 /* ViewController.m in Sources */,
+				F77134DB2019B1C600987952 /* LMHomeModule.m in Sources */,
+				F77134D02019AD3700987952 /* main.m in Sources */,
+				F77134C22019AD3700987952 /* AppDelegate.m in Sources */,
+				F77134DE2019BAA800987952 /* LMHomeVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F77134C62019AD3700987952 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F77134C72019AD3700987952 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F77134CB2019AD3700987952 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F77134CC2019AD3700987952 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F77134D12019AD3700987952 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F77134D22019AD3700987952 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F77134D42019AD3700987952 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF56E7C9B66AB339CF843B8C /* Pods-LMHomeModule.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LMHomeModule/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lemon.LMHomeModule;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F77134D52019AD3700987952 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A42922071996BD2D058994D5 /* Pods-LMHomeModule.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LMHomeModule/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lemon.LMHomeModule;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F77134B82019AD3700987952 /* Build configuration list for PBXProject "LMHomeModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F77134D12019AD3700987952 /* Debug */,
+				F77134D22019AD3700987952 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F77134D32019AD3700987952 /* Build configuration list for PBXNativeTarget "LMHomeModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F77134D42019AD3700987952 /* Debug */,
+				F77134D52019AD3700987952 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F77134B52019AD3700987952 /* Project object */;
+}
