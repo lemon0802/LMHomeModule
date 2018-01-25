@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "LMHomeModule"
-  s.version      = "2"
+  s.version      = "3"
   s.summary      = "LMHomeModule."
 
   # This description is used to generate tags and improve search results.
@@ -137,5 +137,6 @@ Pod::Spec.new do |s|
   # s.dependency "BLAPIManagers"
   # s.dependency "BLMediator"
     s.dependency "BeeHive"
+    s.dependency "LMHomeServeice"
 
 end
