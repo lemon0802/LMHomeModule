@@ -18,7 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.view.backgroundColor = [UIColor blackColor];
+    self.view.backgroundColor = [UIColor orangeColor];
 }
 
 -(void)registerViewController:(UIViewController *)vc title:(NSString *)title iconName:(NSString *)iconName{
