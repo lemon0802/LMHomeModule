@@ -5,6 +5,6 @@ source 'https://github.com/lemon0802/LMBHPrivatePod.git'
 source 'https://github.com/CocoaPods/Specs.git'
 
 target 'LMHomeModule' do
-	pod "BeeHive", ~> "1.5.1"
+	pod "BeeHive", '~>1.5.1'
     pod "LMHomeServeice" 
 end
