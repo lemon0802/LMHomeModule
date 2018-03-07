@@ -18,12 +18,12 @@
 @end
 
 @implementation LMHomeModule
-//动态注册Module
+//动态注册Module 也可以在BeeHive.plist注册
 BH_EXPORT_MODULE()
 
 - (void)modSetUp:(BHContext *)context
 {
-    //动态注册Service 会造成编译上的耦合 如果在Service.Plist文件中注册就不会
+    //动态注册Service会造成编译上的耦合 如果在BHService.plist文件中注册就不会
     [[BeeHive shareInstance] registerService:@protocol(LMHomeServiceProtocol) service: [LMHomeVC class]];
     NSLog(@"HomeModule setup");
 }

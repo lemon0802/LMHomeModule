@@ -105,6 +105,7 @@
 		F77134D62019AF4300987952 /* LMHomeModule */ = {
 			isa = PBXGroup;
 			children = (
+				F7713503201B0D1A00987952 /* Resources */,
 				F77134D82019B19600987952 /* Module */,
 				F77134D72019B19600987952 /* ViewController */,
 			);
@@ -127,6 +128,13 @@
 				F77134DA2019B1C600987952 /* LMHomeModule.m */,
 			);
 			path = Module;
+			sourceTree = "<group>";
+		};
+		F7713503201B0D1A00987952 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
